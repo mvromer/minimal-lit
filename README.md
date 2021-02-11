@@ -1,2 +1,25 @@
-# minimal-lit
-A minimal project setup using lit-html, haunted, Tailwind, and web-dev-server
+# Overview
+
+This contains a minimal single page app project setup using [lit-html](https://lit-html.polymer-project.org/)
+and [haunted](https://github.com/matthewp/haunted) for developing Web Components, and
+[Tailwind](https://tailwindcss.com/) for the CSS framework. Dev server with live reloading support
+is provided via [Web Dev Server](https://modern-web.dev/docs/dev-server/overview/). Build time
+tooling is provided via [Gulp](https://gulpjs.com/), [Rollup](https://www.rollupjs.org/guide/en/),
+[PostCSS](https://postcss.org/), and a whole host of plugins for each of them.
+
+> **NOTE:** Support for testing in the works. I haven't settled on the testing framework I prefer
+> that also meshes well with the current setup.
+
+Ultimately, this little setup got me the tools I wanted to use and give me an environment where I
+can feel pretty productive doing front-end development using what I guess is considered "modern
+Javascript". Whether or not this is practical in the long run or others find useful remains to be
+seen. If you have suggestions on how to improve this setup, feel free to send me a PR.
+
+## Future ideas
+
+The following are other areas where I could see me potentially extending this minimal setup:
+
+* Add testing support, ideally where I can continue using ES modules and not necessarily transpile
+  back to something like CommonJS
+* Add support for other static assets like images, fonts, etc. to the build process.
+* Look at making a TypeScript variant of this project setup
