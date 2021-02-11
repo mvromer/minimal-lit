@@ -22,6 +22,7 @@ I put this together while working on the latest LTS release of Node.js at the ti
 following:
 
 ```bash
+npm install
 npm run start
 ```
 
