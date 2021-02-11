@@ -35,4 +35,5 @@ The following are other areas where I could see me potentially extending this mi
 * Add testing support, ideally where I can continue using ES modules and not necessarily transpile
   back to something like CommonJS
 * Add support for other static assets like images, fonts, etc. to the build process.
+* Setup all the additional build steps to create a proper production build, like minification, etc.
 * Look at making a TypeScript variant of this project setup
